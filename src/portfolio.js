@@ -58,8 +58,7 @@ const skillsSection = {
     emoji("⚙️ Work with sensors and control algorithms to enhance interactive experiences in educational apps"),
     emoji("🎓 Build tech solutions that promote learning and speech development for children"),
     emoji("☁️ Use Firebase and REST APIs for backend integration and real-time data sync")
-  ]
-};
+  ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -117,8 +116,9 @@ softwareSkills: [
     skillName: "REST APIs",
     fontAwesomeClassname: "fas fa-plug"
   }
-],
-display: true
+ ],
+  display: true // Set false to hide this section, defaults to true
+};
 
 
 // Education Section
@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Wollongong",
-      logo: require("./assets/images/uowLogo.png"), // replace with your UOW logo image
+      logo: require("./assets/images/uow.png"), // replace with your UOW logo image
       subHeader: "Master of Computer Science (Machine Learning & Big Data)",
       duration: "2024",
       desc: "Graduated with Distinction and Leadership Award. Postgraduate Representative of SCIT.",
@@ -139,7 +139,7 @@ const educationInfo = {
     },
     {
       schoolName: "American International University - Bangladesh (AIUB)",
-      logo: require("./assets/images/aiubLogo.png"), // replace with AIUB logo image
+      logo: require("./assets/images/uow.png"), // replace with AIUB logo image
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2013",
       desc: "Graduated Magna Cum Laude with CGPA 3.94/4.00. Founding Member of AIUB Computer Club.",
@@ -181,7 +181,7 @@ const workExperiences = {
     {
       role: "Lead Android Engineer and Project Coordinator",
       company: "IPvision Canada Inc.",
-      companylogo: require("./assets/images/ipvisionLogo.png"), // add your company logo in assets
+      companylogo: require("./assets/images/uow.png"), // add your company logo in assets
       date: "September 2023 – June 2025 (Contract, Remote from Australia)",
       desc: "Led full-stack Android app development integrating Java SDK and Firebase. Coordinated cross-functional teams and provided mentorship.",
       descBullets: [
@@ -196,7 +196,7 @@ const workExperiences = {
     {
       role: "Software Engineer (Promoted to Senior Software Engineer in 2017)",
       company: "IPvision Canada Inc.",
-      companylogo: require("./assets/images/ipvisionLogo.png"),
+      companylogo: require("./assets/images/uow.png"),
       date: "August 2015 – March 2023 (Full-time, Onsite)",
       desc: "Contributed to large-scale Android app design and implementation, focusing on Material Design and performance for millions of users.",
       descBullets: [
@@ -209,7 +209,7 @@ const workExperiences = {
     {
       role: "Android Developer",
       company: "Atomix System Ltd. (Excel Company Ltd.)",
-      companylogo: require("./assets/images/atomixLogo.png"), // add logo here
+      companylogo: require("./assets/images/uow.png"), // add logo here
       date: "February 2014 – July 2015 (Full-time, Onsite)",
       desc: "Developed pixel-perfect Android apps for Japanese clients with a focus on Material Design and UX consistency.",
       descBullets: [
@@ -237,7 +237,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/ilearnLogo.png"), // add your iLearn logo here
+      image: require("./assets/images/uow.png"), // add your iLearn logo here
       projectName: "iLearn – Early Childhood Educational App",
       projectDesc: "Developed an engaging educational app using Android (Kotlin), ML Kit, Gemini APIs, and CameraX to support early childhood learning. Implemented object detection, speech APIs, and Jetpack components with MVVM and Hilt.",
       footerLink: [
@@ -248,7 +248,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ringidLogo.png"), // add ringID logo here
+      image: require("./assets/images/uow.png"), // add ringID logo here
       projectName: "ringID – Social Business Platform",
       projectDesc: "Contributed to a large-scale social platform with 20M+ users, featuring marketplace, wallet, and live streaming. Used Java, Firebase, MVP architecture, and integrated analytics and Crashlytics.",
       footerLink: [
@@ -259,7 +259,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/secureChatLogo.png"), // add logo for Secure Chat app
+      image: require("./assets/images/uow.png"), // add logo for Secure Chat app
       projectName: "Secure Chat Application",
       projectDesc: "Built a privacy-first chat app in Kotlin with end-to-end encryption, secure calling, and real-time messaging via Firebase. Used Jetpack, Room DB, and tested with JUnit and Mockito.",
       footerLink: [
@@ -270,7 +270,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/oiiLogo.png"), // taxi app logo here
+      image: require("./assets/images/uow.png"), // taxi app logo here
       projectName: "Oii – Taxi Hiring App",
       projectDesc: "Created a ride-hailing app with real-time tracking via Google Maps SDK and Firebase Realtime DB. Used Kotlin and Clean Architecture for managing location, notifications, and booking flow.",
       footerLink: [
@@ -380,11 +380,50 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// Talks Sections
+
+const talkSection = {
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
+
+  talks: [
+    {
+      title: "Build Actions For Google Assistant",
+      subtitle: "Codelab at GDG DevFest Karachi 2019",
+      slides_url: "https://bit.ly/saadpasta-slides",
+      event_url: "https://www.facebook.com/events/2339906106275053/"
+    }
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
+// Podcast Section
+
+const podcastSection = {
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
+  // Please Provide with Your Podcast embeded Link
+  podcast: [
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+  ],
+  display: false // Set false to hide this section, defaults to true
+};
+
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "sumaiya.s.munira@gmail.com"
+};
+
+// Twitter Section
+
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
