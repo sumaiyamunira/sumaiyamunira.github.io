@@ -93,10 +93,6 @@ softwareSkills: [
     fontAwesomeClassname: "fas fa-chart-line"
   },
   {
-    skillName: "Scikit-Learn",
-    fontAwesomeClassname: "fas fa-brain"
-  },
-  {
     skillName: "TensorFlow Lite / ML Kit",
     fontAwesomeClassname: "fas fa-robot"
   },
@@ -138,8 +134,8 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "American International University - Bangladesh (AIUB)",
-      logo: require("./assets/images/uow.png"), // replace with AIUB logo image
+      schoolName: "American International University",
+      logo: require("./assets/images/aiub_logo.png"), // replace with AIUB logo image
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2013",
       desc: "Graduated Magna Cum Laude with CGPA 3.94/4.00. Founding Member of AIUB Computer Club.",
@@ -158,7 +154,11 @@ const techStack = {
   viewSkillBars: true, // Show Proficiency Section
   experience: [
     {
-      Stack: "Mobile Development (Android/Kotlin)",
+      Stack: "Mobile Development (Android – Java/Kotlin)",
+      progressPercentage: "90%"
+    },
+	 {
+      Stack: "Technical Business Analysis & Requirements Engineering",
       progressPercentage: "85%"
     },
     {
@@ -166,7 +166,7 @@ const techStack = {
       progressPercentage: "75%"
     },
     {
-      Stack: "Data Analytics & Visualization",
+      Stack: "Data Analytics & Visualization (Tableau, Power BI)",
       progressPercentage: "65%"
     }
   ],
@@ -181,7 +181,7 @@ const workExperiences = {
     {
       role: "Lead Android Engineer and Project Coordinator",
       company: "IPvision Canada Inc.",
-      companylogo: require("./assets/images/uow.png"), // add your company logo in assets
+      companylogo: require("./assets/images/ipvision.jpg"), // add your company logo in assets
       date: "September 2023 – June 2025 (Contract, Remote from Australia)",
       desc: "Led full-stack Android app development integrating Java SDK and Firebase. Coordinated cross-functional teams and provided mentorship.",
       descBullets: [
@@ -196,7 +196,7 @@ const workExperiences = {
     {
       role: "Software Engineer (Promoted to Senior Software Engineer in 2017)",
       company: "IPvision Canada Inc.",
-      companylogo: require("./assets/images/uow.png"),
+      companylogo: require("./assets/images/ipvision.jpg"),
       date: "August 2015 – March 2023 (Full-time, Onsite)",
       desc: "Contributed to large-scale Android app design and implementation, focusing on Material Design and performance for millions of users.",
       descBullets: [
@@ -209,7 +209,7 @@ const workExperiences = {
     {
       role: "Android Developer",
       company: "Atomix System Ltd. (Excel Company Ltd.)",
-      companylogo: require("./assets/images/uow.png"), // add logo here
+      companylogo: require("./assets/images/atomix.jpg"), // add logo here
       date: "February 2014 – July 2015 (Full-time, Onsite)",
       desc: "Developed pixel-perfect Android apps for Japanese clients with a focus on Material Design and UX consistency.",
       descBullets: [
@@ -237,7 +237,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/uow.png"), // add your iLearn logo here
+      image: require("./assets/images/iLearn.png"), // add your iLearn logo here
       projectName: "iLearn – Early Childhood Educational App",
       projectDesc: "Developed an engaging educational app using Android (Kotlin), ML Kit, Gemini APIs, and CameraX to support early childhood learning. Implemented object detection, speech APIs, and Jetpack components with MVVM and Hilt.",
       footerLink: [
@@ -248,7 +248,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/uow.png"), // add ringID logo here
+      image: require("./assets/images/ringid.png"), // add ringID logo here
       projectName: "ringID – Social Business Platform",
       projectDesc: "Contributed to a large-scale social platform with 20M+ users, featuring marketplace, wallet, and live streaming. Used Java, Firebase, MVP architecture, and integrated analytics and Crashlytics.",
       footerLink: [
@@ -259,7 +259,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/uow.png"), // add logo for Secure Chat app
+      image: require("./assets/images/ringid.jpg"), // add logo for Secure Chat app
       projectName: "Secure Chat Application",
       projectDesc: "Built a privacy-first chat app in Kotlin with end-to-end encryption, secure calling, and real-time messaging via Firebase. Used Jetpack, Room DB, and tested with JUnit and Mockito.",
       footerLink: [
@@ -270,7 +270,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/uow.png"), // taxi app logo here
+      image: require("./assets/images/oii_logo.png"), // taxi app logo here
       projectName: "Oii – Taxi Hiring App",
       projectDesc: "Created a ride-hailing app with real-time tracking via Google Maps SDK and Firebase Realtime DB. Used Kotlin and Clean Architecture for managing location, notifications, and booking flow.",
       footerLink: [
@@ -287,63 +287,101 @@ const bigProjects = {
 
 // Achievement Section
 // Include certificates, talks etc
-
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications & Key Skills 🏅"), // Changed title to be more specific
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Validated skills and professional recognition in Software Development, Data Analytics, and Business Analysis.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Data Analytics & BI Expertise",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Practical experience in data analysis and business intelligence tools from industry leaders.",
+      // You can choose an image that represents Data Analytics/BI,
+      // or create a new one, or leave it general if this card is a summary.
+      // For now, I'll use a placeholder.
+      image: require("./assets/images/data_analysis_2.png"), // Placeholder: Replace with actual path
+      imageAlt: "Data Analytics & Business Intelligence",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Deloitte Data Analytics Job Sim",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_Z6A6FRYLZWq4Kj8hJ_1750215054287_completion_certificate.pdf"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Power BI Essential Training",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.linkedin.com/learning/certificates/ee422713a7711005fd826f42e4a23dc3cb8f45525f8d7a29ff25c31852294a2d?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BhUujg7U9TeK31%2FagfSk%2F4g%3D%3D"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Business Analysis & Project Management",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Proficiency in understanding requirements and project dynamics for effective solution delivery.",
+      // Placeholder image
+      image: require("./assets/images/business_dev.png"), // Placeholder: Replace with actual path
+      imageAlt: "Business Analysis & Project Management",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "PMI: Business Analysis",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.linkedin.com/learning/certificates/6d85fb8028ce39921519d507088dbd1983112b7afc4b339e84b59917eb85eaa4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bz9RSqQCySGODDaKqdiKwcA%3D%3D"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Mobile & Core Development",
+      subtitle:
+        "Strong foundational and specialized skills in mobile application development and core programming.",
+      // Placeholder image
+      image: require("./assets/images/mobile_dev.png"), // Placeholder: Replace with actual path
+      imageAlt: "Mobile & Core Development",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Android (TestDome)",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.testdome.com/certificates/d605ed39c7ba45a38a1b3ae451b3a04e"
+        },
+        {
+          name: "Kotlin (TestDome)",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.testdome.com/certificates/fb7fb30b5cea4a05a454753b70ab30f8"
+        },
+        {
+          name: "JAVA (HackerRank)",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.hackerrank.com/certificates/885b18ec8878"
+        },
+        {
+          name: "Problem Solving (HackerRank)",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.hackerrank.com/certificates/6401718f5639"
+        }
+      ]
+    },
+    {
+      title: "Professional Affiliations",
+      subtitle:
+        "Membership in leading professional bodies for IT and Engineering in Australia.",
+      // Placeholder image
+      image: require("./assets/images/professional_network.png"), // Placeholder: Replace with actual path
+      imageAlt: "Professional Affiliations",
+      footerLink: [
+        {
+          name: "ACS Membership",
+          // Replace with actual URL if you have one for this membership
+          url: "https://www.acs.org.au/"
+        },
+        {
+          name: "Engineers Australia Membership",
+          // Replace with actual URL if you have one for this membership
+          url: "https://www.engineersaustralia.org.au/"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Changed to true if you want to display it
 };
 
 // Blogs Section
@@ -365,6 +403,18 @@ const blogSection = {
       title: "From Code to Coordination: My Decade-Long Journey as an Android Developer",
       description:
         "I still remember the electric thrill of writing my first line of production code — a feeling so powerful, it made everything else fade into the background.."
+    },
+	 {
+      url: "https://www.linkedin.com/pulse/unleashing-power-big-data-analytics-new-era-business-growth-munira-dp1ke",
+      title: "Unleashing the Power of Big Data Analytics : A New Era of Business Intelligence and Growth",
+      description:
+        "In today's digital world, Big-Data-Analytics is no longer a fancy tech term, rather it’s a transformative force!It can transform nearly every industry by.."
+    },
+	 {
+      url: "https://www.linkedin.com/pulse/securing-digital-frontier-navigating-landscape-software-munira-vcmhc",
+      title: "Securing the Digital Frontier: Navigating the Landscape of Software Vulnerabilities and Testing Strategies",
+      description:
+        "Kevin Mitnick, a former hacker turned cybersecurity consultant and author, once remarked that in cybersecurity, the greatest danger lies not in what we know, but in what we don't.."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -383,20 +433,20 @@ const resumeSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "MENTORSHIP",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "DEDICATED TO SUPPORTING STUDENTS THROUGH THE NSW STUDY CONNECT PROGRAM 🎓"
   ),
 
-  talks: [
+  mentorships: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Mentor at NSW Study Connect Program",
+      subtitle: "Providing academic guidance and support to students to enhance their learning journey",
+      program_url: "https://www.study.nsw.gov.au/current-students/nsw-jobs-connect/",
+      display: true
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Podcast Section
