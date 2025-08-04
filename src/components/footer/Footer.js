@@ -11,22 +11,11 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Made with ❤️ by Sumaiya Munira")}
+          {emoji("Inspired by Theme DeveloperFolio. Made with ❤️ by Sumaiya Salam Munira")}
         </p>
 
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          © {new Date().getFullYear()} Sumaiya Munira. All rights reserved.
-        </p>
-		
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme adapted from{" "}
-          <a
-            href="https://github.com/saadpasta/developerFolio"
-            target="_blank"
-            rel="noreferrer"
-          >
-            DeveloperFolio
-          </a>
+          © {new Date().getFullYear()} Sumaiya Salam Munira. All rights reserved.
         </p>
       </div>
     </Fade>

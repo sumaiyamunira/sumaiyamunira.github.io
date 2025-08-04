@@ -3,7 +3,11 @@
 .footer-text {
   text-align: center;
   color: $subTitle !important;
+  font-size: 0.85rem;    // smaller font size
+  margin: 0.25rem 0;     // less vertical spacing between lines
+  line-height: 1.2;
 }
+
 
 .dark-mode {
   color: $textColorDark !important;
