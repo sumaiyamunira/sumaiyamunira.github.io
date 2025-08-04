@@ -27,7 +27,7 @@ const greeting = {
   
   ),
   resumeLink:
-    "https://www.canva.com/design/DAGqJhTm7JQ/yukv-XaQGjNfU4Z9fQbzHA/view?utm_content=DAGqJhTm7JQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7ecaea01ef", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1s5oNCujoiRlqyqPGviBSYsLdm5j7zl6G/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -40,9 +40,6 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/sumaiyamunira",
   facebook: "https://www.facebook.com/sumaiya.munira/",
   medium: "https://medium.com/@sumu0013",
- // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
