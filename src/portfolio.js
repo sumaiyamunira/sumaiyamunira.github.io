@@ -23,7 +23,7 @@ const greeting = {
   username: "Sumaiya Salam Munira",
   title: "Hi all, I'm Sumaiya",
   subTitle: emoji(
-  "A passionate Mobile Application Developer with 10+ years of experience building high-performance Android apps. Specializing in Kotlin, JAVA, Jetpack, and Firebase with deep expertise in building offline-first architectures, real-time data flows, and UI concurrency management"
+  "A passionate Mobile Application Developer with 10+ years of experience building high-performance Android apps. Specializing in Kotlin, JAVA, Jetpack, and Firebase with deep expertise in building offline-first architectures, real-time data flows, and UI concurrency management."
   
   ),
   resumeLink:
@@ -47,18 +47,21 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I Do",
-  subTitle: "PASSIONATE ANDROID DEVELOPER CRAFTING SMART, EDUCATIONAL MOBILE EXPERIENCES WITH AI & DATA",
-  skills: [
-    emoji("📱 Build Android applications using both traditional XML layouts and modern Jetpack Compose for responsive UIs"),
-    emoji("🧠 Implement intelligent features with ML Kit — including real-time object detection, face recognition, and text recognition"),
-    emoji("📦 Architect scalable app structures with Android Jetpack components like ViewModel, LiveData, Room, and Navigation"),
-    emoji("☁️ Integrate Firebase (Auth, Firestore, Realtime DB, Storage) and REST APIs for seamless backend communication"),
-    emoji("🎓 Create child-focused educational tools that promote speech development, interaction, and cognitive growth"),
-    emoji("🤝 Collaborate in cross-functional teams, contributing to product design, user testing, and agile development cycles"),
-    emoji("📊 Apply machine learning and data analytics using Python, TensorFlow Lite, and Big Data tools"),
-    emoji("🎮 Work with sensors and control logic to build interactive and gamified learning experiences"),
-    emoji("🛠️ Follow best practices for testing, performance optimization, accessibility, and CI/CD workflows")
-  ],
+ // subTitle: "PASSIONATE ANDROID DEVELOPER CRAFTING SMART, EDUCATIONAL MOBILE EXPERIENCES WITH AI & DATA",
+skills: [
+  emoji("📱 Build Android applications using both traditional XML layouts and modern Jetpack Compose for responsive, intuitive UIs"),
+  emoji("🧠 Implement intelligent features with ML Kit — including real-time object detection, speech APIs, and Gemini APIs"),
+  emoji("📦 Architect scalable app structures with Android Jetpack components like ViewModel, LiveData, Room, and Navigation in MVVM and Clean Architecture"),
+  emoji("☁️ Integrate Firebase services (Auth, Realtime Database, Storage, Analytics) and REST APIs for seamless backend communication"),
+  emoji("🤝 Collaborate effectively in cross-functional teams, contributing to product design, user testing, and agile development processes"),
+  emoji("🌐 Provide technical support and guidance for cross-platform projects involving Flutter, React Native, and Swift to ensure smooth development and integration"),
+  emoji("🔗 Translate business requirements from non-technical stakeholders into high-performance, user-friendly mobile applications"),
+  emoji("📊 Utilize machine learning and data analytics using Python, TensorFlow Lite, and Big Data tools to extract insights"),
+  emoji("📈 Leverage data visualization tools like Tableau and Power BI to communicate findings effectively"),
+  emoji("🎮 Work with sensors and control logic to build interactive and gamified learning experiences"),
+  emoji("🛠️ Follow best practices for testing (TDD, unit testing), performance optimization, accessibility, and CI/CD workflows")
+],
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -111,6 +114,10 @@ softwareSkills: [
   {
     skillName: "REST APIs",
     fontAwesomeClassname: "fas fa-plug"
+  },
+  {
+  skillName: "JUnit",
+  fontAwesomeClassname: "fas fa-vial"
   }
  ],
   display: true // Set false to hide this section, defaults to true
@@ -304,7 +311,7 @@ const achievementSection = {
       imageAlt: "Data Analytics & Business Intelligence",
       footerLink: [
         {
-          name: "Deloitte Data Analytics Job Sim",
+          name: "Certificate on Data Analytics",
           // Replace with actual URL if you have one for this certificate
           url: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_Z6A6FRYLZWq4Kj8hJ_1750215054287_completion_certificate.pdf"
         },
@@ -320,7 +327,7 @@ const achievementSection = {
       subtitle:
         "Proficiency in understanding requirements and project dynamics for effective solution delivery.",
       // Placeholder image
-      image: require("./assets/images/business_dev.png"), // Placeholder: Replace with actual path
+      image: require("./assets/images/business_analysis_3.png"), // Placeholder: Replace with actual path
       imageAlt: "Business Analysis & Project Management",
       footerLink: [
         {
@@ -365,7 +372,7 @@ const achievementSection = {
       subtitle:
         "Membership in leading professional bodies for IT and Engineering in Australia.",
       // Placeholder image
-      image: require("./assets/images/professional_network.png"), // Placeholder: Replace with actual path
+      image: require("./assets/images/professional_membership.jpg"), // Placeholder: Replace with actual path
       imageAlt: "Professional Affiliations",
       footerLink: [
         {

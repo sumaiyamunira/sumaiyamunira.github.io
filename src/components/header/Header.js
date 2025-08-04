@@ -53,7 +53,7 @@ function Header() {
           )}
           {viewOpenSource && (
             <li>
-              <a href="https://github.com/sumaiyamunira">Open Source</a>
+              <a href="https://github.com/sumaiyamunira" target="_blank" rel="noopener noreferrer">Open Source</a>
             </li>
           )}
           {viewAchievement && (
