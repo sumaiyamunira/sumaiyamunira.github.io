@@ -435,16 +435,16 @@ const talkSection = {
     "DEDICATED TO SUPPORTING STUDENTS THROUGH THE NSW STUDY CONNECT PROGRAM 🎓"
   ),
 
-  mentorships: [
+  talks: [
     {
       title: "Mentor at NSW Study Connect Program",
       subtitle: "Providing academic guidance and support to students to enhance their learning journey",
-      program_url: "https://www.study.nsw.gov.au/current-students/nsw-jobs-connect/",
-      display: true
+      event_url: "https://www.study.nsw.gov.au/current-students/nsw-jobs-connect/",
     }
   ],
-  display: true
+  display: false // Set false to hide this section, defaults to true
 };
+
 
 // Podcast Section
 
