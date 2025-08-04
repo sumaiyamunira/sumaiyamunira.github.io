@@ -46,15 +46,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "PASSIONATE DEVELOPER BLENDING MOBILE INNOVATION WITH AI & DATA INSIGHTS",
+  title: "What I Do",
+  subTitle: "PASSIONATE ANDROID DEVELOPER CRAFTING SMART, EDUCATIONAL MOBILE EXPERIENCES WITH AI & DATA",
   skills: [
-    emoji("📱 Develop intuitive and interactive Android applications using Kotlin and Jetpack Compose"),
-    emoji("🧠 Integrate AI and ML features using tools like ML Kit for real-time object detection and classification"),
-    emoji("📊 Analyze large-scale data using Python, Big Data tools, and machine learning algorithms"),
-    emoji("⚙️ Work with sensors and control algorithms to enhance interactive experiences in educational apps"),
-    emoji("🎓 Build tech solutions that promote learning and speech development for children"),
-    emoji("☁️ Use Firebase and REST APIs for backend integration and real-time data sync")
+    emoji("📱 Build Android applications using both traditional XML layouts and modern Jetpack Compose for responsive UIs"),
+    emoji("🧠 Implement intelligent features with ML Kit — including real-time object detection, face recognition, and text recognition"),
+    emoji("📦 Architect scalable app structures with Android Jetpack components like ViewModel, LiveData, Room, and Navigation"),
+    emoji("☁️ Integrate Firebase (Auth, Firestore, Realtime DB, Storage) and REST APIs for seamless backend communication"),
+    emoji("🎓 Create child-focused educational tools that promote speech development, interaction, and cognitive growth"),
+    emoji("🤝 Collaborate in cross-functional teams, contributing to product design, user testing, and agile development cycles"),
+    emoji("📊 Apply machine learning and data analytics using Python, TensorFlow Lite, and Big Data tools"),
+    emoji("🎮 Work with sensors and control logic to build interactive and gamified learning experiences"),
+    emoji("🛠️ Follow best practices for testing, performance optimization, accessibility, and CI/CD workflows")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -412,6 +415,17 @@ const blogSection = {
       title: "Securing the Digital Frontier: Navigating the Landscape of Software Vulnerabilities and Testing Strategies",
       description:
         "Kevin Mitnick, a former hacker turned cybersecurity consultant and author, once remarked that in cybersecurity, the greatest danger lies not in what we know, but in what we don't.."
+    },
+	{
+      url: "https://www.linkedin.com/pulse/role-data-science-artificial-intelligence-advancing-medicine-munira-chcec",
+      title: "The Role of Data Science and Artificial Intelligence in Advancing Personalized Medicine",
+      description:
+        "What if your doctor could offer you the perfect treatment based not just on your symptoms, but on your genetic code, lifestyle and environment? With personalized.."
+    },{
+      url: "https://www.linkedin.com/pulse/mastering-statistical-analysis-hypothesis-testing-key-munira-n8qrc",
+      title: "Mastering Statistical Analysis: Hypothesis Testing and Key Tests",
+      description:
+        "In data science and research, hypothesis testing is essential for evaluating whether data supports a certain claim. There are various types of statistical analysis.."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -424,7 +438,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -471,7 +485,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
