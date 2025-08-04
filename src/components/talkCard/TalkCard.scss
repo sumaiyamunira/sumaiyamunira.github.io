@@ -9,7 +9,7 @@
 .rectangle {
   background: url(../../assets/images/talksCardBack.svg);
   width: 380px;
-  height: 300px;
+  height: 320px;
   border-radius: 4px;
   box-shadow: 0px 20px 50px $darkBoxShadow;
   -webkit-transition: all 0.3s ease;
@@ -53,7 +53,7 @@
   line-height: 18px;
   overflow: hidden;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 .talk-button {

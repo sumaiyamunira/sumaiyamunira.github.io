@@ -460,11 +460,11 @@ const talkSection = {
     {
       title: "Mentor at NSW Study Connect Program",
       subtitle: "Providing academic guidance and support to students to enhance their learning journey",
-	  slides_url: "https://practera.com/practera-for-students-2/",
+	  slides_url: "https://drive.google.com/file/d/1P9lOBuyV_8xeoI4OnSQk_ZT0_2RK7Z3L/view?usp=sharing",
       event_url: "https://www.study.nsw.gov.au/current-students/nsw-jobs-connect/"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 
