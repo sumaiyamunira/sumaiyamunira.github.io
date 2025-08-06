@@ -259,7 +259,7 @@ const bigProjects = {
     {
       image: require("./assets/images/iLearn.png"), // add your iLearn logo here
       projectName: "iLearn – Early Childhood Educational App",
-      projectDesc: "Developed an engaging educational app using Android (Kotlin), ML Kit, Gemini APIs, and CameraX to support early childhood learning. Implemented object detection, speech APIs, and Jetpack components with MVVM and Hilt.",
+      projectDesc: "Developed an engaging educational app using Kotlin, ML Kit, Gemini APIs, and CameraX to support early childhood learning. Implemented object detection, speech APIs, and Jetpack components with MVVM and Hilt.",
       footerLink: [
         {
           name: "Learn More",
@@ -281,7 +281,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ringid.jpg"), // add logo for Secure Chat app
       projectName: "Secure Chat Application",
-      projectDesc: "Built a privacy-first chat app in Kotlin with end-to-end encryption, secure calling, and real-time messaging via Firebase. Used Jetpack, Room DB, and tested with JUnit and Mockito.",
+      projectDesc: "Built a privacy-first chat app using both Java and Kotlin with end-to-end encryption, secure calling, and real-time messaging via Firebase. Used Jetpack, Room DB, and tested with JUnit and Mockito.",
       footerLink: [
         {
           name: "Company Info",
