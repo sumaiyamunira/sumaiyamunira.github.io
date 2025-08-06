@@ -12,9 +12,10 @@
   gap: 1rem 1rem;
 }
 
-.subTitle {
-  color: $subTitle;
+.talk-header-subtitle{
+  margin-top: 50px;
 }
+
 
 @media (max-width: 768px) {
   .talk-header-title {

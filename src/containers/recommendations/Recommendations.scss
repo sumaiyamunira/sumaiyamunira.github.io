@@ -1,0 +1,75 @@
+@import "../../_globalColor";
+
+
+.recommendation-main-div {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.recommendation-text-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // Responsive grid
+  gap: 20px; // spacing between cards
+  width: 100%;
+  max-width: 1200px; // Optional max width for better alignment
+  padding: 10px;
+}
+
+.recommendation-header {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+
+}
+
+ .recommendation-header-text {
+  font-size: 56px;
+  font-weight: 400;
+ }
+ 
+ .recommendation-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+  color: $subTitle;
+}
+
+
+.recommendation-subtitle {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.recommendation-content {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .recommendation-card {
+    max-width: 420px;
+    /* Removed width: 100% to avoid full width */
+  }
+}
+
+@media (max-width: 768px) {
+  .recommendation-header-text {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .recommendation-subtitle {
+	font-size: 16px;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  .recommendation-content {
+    font-size: 15px;
+    text-align: center;
+  }
+
+}
+
+

@@ -16,7 +16,15 @@
   color: $cardSubtitle;
   font-size: 17px;
   line-height: 1.5rem;
+  
 }
+
+.project-subtitle {
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+
 .project-card {
   display: flex;
   flex-direction: column;

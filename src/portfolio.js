@@ -23,7 +23,7 @@ const greeting = {
   username: "Sumaiya Salam Munira",
   title: "Hi all, I'm Sumaiya",
   subTitle: emoji(
-  "A passionate Mobile Application Developer with 10+ years of experience building high-performance Android apps. Specializing in Kotlin, JAVA, Jetpack, and Firebase with deep expertise in building offline-first architectures, real-time data flows, and UI concurrency management."
+  "A passionate Mobile Application Developer with 10+ years of experience building high-performance Android apps. Specializing in Kotlin, JAVA, Jetpack, and Firebase with deep expertise in building offline-first architectures, real-time data flows, and UI concurrency management. Familiar with Swift and React Native for effective contributions to both native and cross-platform development."
   
   ),
   resumeLink:
@@ -50,7 +50,7 @@ const skillsSection = {
  // subTitle: "PASSIONATE ANDROID DEVELOPER CRAFTING SMART, EDUCATIONAL MOBILE EXPERIENCES WITH AI & DATA",
 skills: [
   emoji("📱 Build Android applications using both traditional XML layouts and modern Jetpack Compose for responsive, intuitive UIs"),
-  emoji("🧠 Implement intelligent features with ML Kit — including real-time object detection, speech APIs, and Gemini APIs"),
+  emoji("🧠 Implement intelligent features with ML Kit — including real-time object detection, speech APIs, and Generative AI (LLMs) for enhanced application functionality."),
   emoji("📦 Architect scalable app structures with Android Jetpack components like ViewModel, LiveData, Room, and Navigation in MVVM and Clean Architecture"),
   emoji("☁️ Integrate Firebase services (Auth, Realtime Database, Storage, Analytics) and REST APIs for seamless backend communication"),
   emoji("🤝 Collaborate effectively in cross-functional teams, contributing to product design, user testing, and agile development processes"),
@@ -58,7 +58,7 @@ skills: [
   emoji("🔗 Translate business requirements from non-technical stakeholders into high-performance, user-friendly mobile applications"),
   emoji("📊 Utilize machine learning and data analytics using Python, TensorFlow Lite, and Big Data tools to extract insights"),
   emoji("📈 Leverage data visualization tools like Tableau and Power BI to communicate findings effectively"),
-  emoji("🎮 Work with sensors and control logic to build interactive and gamified learning experiences"),
+ // emoji("🎮 Work with sensors and control logic to build interactive and gamified learning experiences"),
   emoji("🛠️ Follow best practices for testing (TDD, unit testing), performance optimization, accessibility, and CI/CD workflows")
 ],
 
@@ -84,8 +84,16 @@ softwareSkills: [
     fontAwesomeClassname: "fas fa-layer-group"
   },
   {
+    skillName: "Android XML Layouts",
+    fontAwesomeClassname: "fas fa-code"
+  },
+  {
     skillName: "Firebase",
     fontAwesomeClassname: "fas fa-fire"
+  },
+  {
+    skillName: "Gradle",
+    fontAwesomeClassname: "fas fa-cogs"
   },
   {
     skillName: "Python",
@@ -162,11 +170,11 @@ const techStack = {
   experience: [
     {
       Stack: "Mobile Development (Android – Java/Kotlin)",
-      progressPercentage: "90%"
+      progressPercentage: "95%"
     },
 	 {
       Stack: "Technical Business Analysis & Requirements Engineering",
-      progressPercentage: "85%"
+      progressPercentage: "90%"
     },
     {
       Stack: "AI & Machine Learning (Python, ML Kit, Big Data)",
@@ -174,7 +182,7 @@ const techStack = {
     },
     {
       Stack: "Data Analytics & Visualization (Tableau, Power BI)",
-      progressPercentage: "65%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: true
@@ -206,24 +214,29 @@ const workExperiences = {
       companylogo: require("./assets/images/ipvision.jpg"),
       date: "August 2015 – March 2023 (Full-time, Onsite)",
       desc: "Contributed to large-scale Android app design and implementation, focusing on Material Design and performance for millions of users.",
-      descBullets: [
-        "Collaborated with designers and product teams to deliver feature-rich apps",
-        "Applied Material Design principles to improve app usability and aesthetics",
-        "Used Google Analytics and Firebase Crashlytics to reduce crash rates and enhance user retention",
-        "Achieved 99% crash-free session rate across 5M+ installs of ringID app"
-      ]
+		descBullets: [
+		  "Developed clean, efficient code and integrated multiple 3rd party SDKs and APIs to extend app functionality",
+		  "Used Google Analytics and Firebase Crashlytics to reduce crash rates and enhance user retention",
+		  "Achieved 99% crash-free session rate across 5M+ installs of ringID app",
+		  "Collaborated with backend teams to optimize REST API integration and offline caching",
+		  "Worked closely with designers and product teams to deliver feature-rich apps",
+		  "Applied Material Design principles to improve app usability and aesthetics",
+		  "Supported app localization and accessibility features to expand user base internationally"
+		]
     },
     {
       role: "Android Developer",
       company: "Atomix System Ltd. (Excel Company Ltd.)",
       companylogo: require("./assets/images/atomix.jpg"), // add logo here
       date: "February 2014 – July 2015 (Full-time, Onsite)",
-      desc: "Developed pixel-perfect Android apps for Japanese clients with a focus on Material Design and UX consistency.",
-      descBullets: [
-        "Delivered high-quality UI/UX meeting stringent client design standards",
-        "Collaborated closely with stakeholders and graphics teams for polished apps",
-        "Implemented design for usability and accessibility to meet user expectations"
-      ]
+      desc: "Delivered high-quality, client-specific Android applications with pixel-perfect UI and consistent UX",
+		 descBullets: [
+		  "Developed custom UI components and animations to meet client branding and usability requirements",
+		  "Implemented RESTful API integration to enable seamless data communication between app and backend services",
+		  "Collaborated with remote teams and clients from Japan, Qatar, and Australia to iterate app designs efficiently",
+		  "Wrote clean, maintainable code and participated in code reviews to ensure high-quality deliverables",
+		  "Implemented app testing and debugging workflows, improving stability and user satisfaction"
+		]
     }
   ]
 };
@@ -240,8 +253,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Featured Projects",
+  subtitle: "A SELECTION OF IMPACTFUL PROJECTS FOR STARTUPS AND ESTABLISHED COMPANIES",
   projects: [
     {
       image: require("./assets/images/iLearn.png"), // add your iLearn logo here
@@ -279,7 +292,7 @@ const bigProjects = {
     {
       image: require("./assets/images/oii_logo.png"), // taxi app logo here
       projectName: "Oii – Taxi Hiring App",
-      projectDesc: "Created a ride-hailing app with real-time tracking via Google Maps SDK and Firebase Realtime DB. Used Kotlin and Clean Architecture for managing location, notifications, and booking flow.",
+      projectDesc: "Created a ride-hailing app with real-time tracking via Google Maps SDK and Firebase Realtime DB. Used Java and Clean Architecture for managing location, notifications, and booking flow.",
       footerLink: [
         {
           name: "Company Info",
@@ -295,7 +308,7 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 const achievementSection = {
-  title: emoji("Certifications & Key Skills 🏅"), // Changed title to be more specific
+  title: emoji("Certifications & Key Skills"), // Changed title to be more specific
   subtitle:
     "Validated skills and professional recognition in Software Development, Data Analytics, and Business Analysis.",
 
@@ -334,6 +347,11 @@ const achievementSection = {
           name: "PMI: Business Analysis",
           // Replace with actual URL if you have one for this certificate
           url: "https://www.linkedin.com/learning/certificates/6d85fb8028ce39921519d507088dbd1983112b7afc4b339e84b59917eb85eaa4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bz9RSqQCySGODDaKqdiKwcA%3D%3D"
+        },
+		{
+          name: "PMI: Public Speaking",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.linkedin.com/learning/certificates/80c031b2a25c9a1190b49c3b0642fdbdfc8bf02f44dd9c7988d1fcdd993240e2"
         }
       ]
     },
@@ -451,7 +469,7 @@ const resumeSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "MENTORSHIP",
+  title: "Mentorship",
   subtitle: emoji(
     "DEDICATED TO SUPPORTING STUDENTS THROUGH THE NSW STUDY CONNECT PROGRAM 🎓"
   ),
@@ -481,8 +499,45 @@ const podcastSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
+const recommendationSection = {
+  title: "Words That Matter",
+   subtitle: emoji("Professional voices on my work and impact 💬"),
+  display: true,
+  recommendations: [
+    {
+      name: "Viktoria Darabi",
+	  url: "https://www.linkedin.com/in/viktoriadarabi/",
+	  position: "Founder, Savvy and Successful Pty Ltd. (Client)",
+      message:
+         "...Sumaiya's approach was highly professional and it was obvious her leadership was valued and appreciated by her fellow team members..."
+    },
+	//{
+    //  name: "Peter Millard",
+	//  url: "https://www.linkedin.com/in/peteramillard/",
+	//  position: "Director, Millard Business Associates (Mentor)",
+   //   message:
+   //    "...She balances practical responsibilities with ongoing development, maintaining professionalism and delivering high-quality results..."
+
+   // },
+   	{
+      name: "Nazmul Hasan Masum",
+	  url: "https://www.linkedin.com/in/nazmul-hasan-masum/",
+	  position: "Former Developer, Atomix System Ltd. (Colleague)",
+      message:
+       "She is clipping to problem solving as well as excellent in OOP programming knowledge. I had found her as a good team player."
+    },
+	{
+      name: "Udayan Ghosh",
+	  url: "https://linkedin.com/in/viktoriadarabi",
+	  position: "Ex-Director, IPVision Canada Inc. (Manager)",
+      message:
+         "...Her expertise in software development played a critical role in creating and maintaining applications in an agile environment with our large diverse team..."
+    }
+  ]
+};
+
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "sumaiya.s.munira@gmail.com"
@@ -512,6 +567,7 @@ export {
   blogSection,
   talkSection,
   podcastSection,
+  recommendationSection,
   contactInfo,
   twitterDetails,
   isHireable,
