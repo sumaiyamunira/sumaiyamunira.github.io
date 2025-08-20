@@ -142,21 +142,22 @@ const educationInfo = {
       logo: require("./assets/images/uow.png"), // replace with your UOW logo image
       subHeader: "Master of Computer Science (Machine Learning & Big Data)",
       duration: "2024",
-      desc: "Graduated with Distinction and Leadership Award. Postgraduate Representative of SCIT.",
+      desc: "Graduated with Distinction Award",
       descBullets: [
-        "Specialized in Machine Learning and Big Data Analytics",
-        "Led initiatives as Postgraduate Representative in School of IT"
+		"Recipient of the Postgraduate Academic Excellence Scholarship",
+        "Recognized with the UOWx Leadership Award",
+        "Served as Postgraduate Representative of SCIT"
       ]
     },
     {
       schoolName: "American International University",
       logo: require("./assets/images/aiub_logo.png"), // replace with AIUB logo image
-      subHeader: "Bachelor of Science in Computer Science",
+      subHeader: "Bachelor of Science in Computer Science and Engineering",
       duration: "2013",
-      desc: "Graduated Magna Cum Laude with CGPA 3.94/4.00. Founding Member of AIUB Computer Club.",
+      desc: "Graduated with Magna Cum Laude Distinction Award",
       descBullets: [
-        "Maintained high academic excellence throughout the degree",
-        "Active leadership role as founding member of university’s Computer Club"
+	  	"Recipient of Academic Excellence Scholarship",
+        "Founding member and active leader of the university’s Computer Club"
       ]
     }
   ]
@@ -170,19 +171,19 @@ const techStack = {
   experience: [
     {
       Stack: "Mobile Development (Android – Java/Kotlin)",
-      progressPercentage: "95%"
+      progressPercentage: "98%"
     },
 	 {
       Stack: "Technical Business Analysis & Requirements Engineering",
-      progressPercentage: "90%"
+      progressPercentage: "93%"
     },
     {
       Stack: "AI & Machine Learning (Python, ML Kit, Big Data)",
-      progressPercentage: "75%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Data Analytics & Visualization (Tableau, Power BI)",
-      progressPercentage: "70%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: true
@@ -197,8 +198,8 @@ const workExperiences = {
       role: "Lead Android Engineer and Project Coordinator",
       company: "IPvision Canada Inc.",
       companylogo: require("./assets/images/ipvision.jpg"), // add your company logo in assets
-      date: "September 2023 – June 2025 (Contract, Remote from Australia)",
-      desc: "Led full-stack Android app development integrating Java SDK and Firebase. Coordinated cross-functional teams and provided mentorship.",
+      date: "2023 – 2025, Contract, Remote",
+      desc: "Led full-stack Android app development. Coordinated cross-functional teams and provided mentorship.",
       descBullets: [
         "Designed and implemented scalable Android features enhancing user experience",
         "Conducted testing, debugging, and optimization for maintainable codebase",
@@ -212,7 +213,7 @@ const workExperiences = {
       role: "Software Engineer (Promoted to Senior Software Engineer in 2017)",
       company: "IPvision Canada Inc.",
       companylogo: require("./assets/images/ipvision.jpg"),
-      date: "August 2015 – March 2023 (Full-time, Onsite)",
+      date: "2015 – 2023, Full-time, Onsite",
       desc: "Contributed to large-scale Android app design and implementation, focusing on Material Design and performance for millions of users.",
 		descBullets: [
 		  "Developed clean, efficient code and integrated multiple 3rd party SDKs and APIs to extend app functionality",
@@ -226,9 +227,9 @@ const workExperiences = {
     },
     {
       role: "Android Developer",
-      company: "Atomix System Ltd. (Excel Company Ltd.)",
+      company: "Excel Company Ltd.",
       companylogo: require("./assets/images/atomix.jpg"), // add logo here
-      date: "February 2014 – July 2015 (Full-time, Onsite)",
+      date: "2014 – 2015, Full-time, Onsite",
       desc: "Delivered high-quality, client-specific Android applications with pixel-perfect UI and consistent UX",
 		 descBullets: [
 		  "Developed custom UI components and animations to meet client branding and usability requirements",
@@ -289,14 +290,58 @@ const bigProjects = {
         }
       ]
     },
+	{
+      image: require("./assets/images/breathwell_icon.png"),
+      projectName: "BreatheWell",
+	  projectDesc: "Led system architecture and app design for a research-based wellness platform for patients with respiratory conditions, including real-time monitoring, emergency support, IoT integration, and personalized health recommendations.",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://www.canva.com/design/DAGSBnVqE3o/RyRnSzcbnhIycq0iqIMy8g/view?mode=prototype"
+        }
+      ]
+    }, 
     {
+      image: require("./assets/images/wefie_icon.png"),
+      projectName: "Wefie",
+      projectDesc: "Developed a meeting platform with secure authentication using Jitsi SDK for live video/audio. Integrated custom React front-end design with Java backend, ensuring smooth real-time communication and a seamless user experience.",
+      footerLink: [
+        {
+          name: "Company Info",
+          url: "https://www.ipvision.ca/" // optional
+        }
+      ]
+    },	
+	{
       image: require("./assets/images/oii_logo.png"), // taxi app logo here
-      projectName: "Oii – Taxi Hiring App",
+      projectName: "NetCABS Oiii",
       projectDesc: "Created a ride-hailing app with real-time tracking via Google Maps SDK and Firebase Realtime DB. Used Java and Clean Architecture for managing location, notifications, and booking flow.",
       footerLink: [
         {
           name: "Company Info",
           url: "https://excelcobd.com/"
+        }
+      ]
+    }, 
+    {
+      image: require("./assets/images/netcab_driver.jpg"),
+      projectName: "NetCABS Driver",
+      projectDesc: "Developed the driver-side app for the Oii taxi platform with real-time ride requests, GPS tracking, and earnings management. Implemented Java, Clean Architecture, Firebase, and Google Maps SDK.",
+      footerLink: [
+        {
+          name: "Company Info",
+          url: "https://excelcobd.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/sidra_icon.jpg"),
+      projectName: "Sidra Pulse",
+      projectDesc: "Developed Sidra Hospital's internal communication app to streamline staff collaboration. Built with Java, featuring custom UI/UX design, secure messaging, notifications, and hospital-specific workflow integrations.",
+      footerLink: [
+        {
+          name: "Learn More",
+          url: "https://www.sidra.org/" // placeholder
         }
       ]
     }
@@ -344,12 +389,12 @@ const achievementSection = {
       imageAlt: "Business Analysis & Project Management",
       footerLink: [
         {
-          name: "PMI: Business Analysis",
+          name: "Business Analysis (PMI)",
           // Replace with actual URL if you have one for this certificate
           url: "https://www.linkedin.com/learning/certificates/6d85fb8028ce39921519d507088dbd1983112b7afc4b339e84b59917eb85eaa4?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Bz9RSqQCySGODDaKqdiKwcA%3D%3D"
         },
 		{
-          name: "PMI: Public Speaking",
+          name: "Public Speaking (PMI)",
           // Replace with actual URL if you have one for this certificate
           url: "https://www.linkedin.com/learning/certificates/80c031b2a25c9a1190b49c3b0642fdbdfc8bf02f44dd9c7988d1fcdd993240e2"
         }
@@ -363,6 +408,11 @@ const achievementSection = {
       image: require("./assets/images/mobile_dev.png"), // Placeholder: Replace with actual path
       imageAlt: "Mobile & Core Development",
       footerLink: [
+	   {
+          name: "AI-Powered Android Apps",
+          // Replace with actual URL if you have one for this certificate
+          url: "https://www.linkedin.com/learning/certificates/c8965ab1ec8de2dc9faf0ba40f59fad0650e5f6a706623a182441f484a6d9658"
+        },
         {
           name: "Android (TestDome)",
           // Replace with actual URL if you have one for this certificate
