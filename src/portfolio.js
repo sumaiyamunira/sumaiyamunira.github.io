@@ -198,7 +198,7 @@ const workExperiences = {
       role: "Lead Android Engineer and Project Coordinator",
       company: "IPvision Canada Inc.",
       companylogo: require("./assets/images/ipvision.jpg"), // add your company logo in assets
-      date: "2023 – 2025, Contract, Remote",
+      date: "2023 – 2025, Contract (Remote Australia)",
       desc: "Led full-stack Android app development. Coordinated cross-functional teams and provided mentorship.",
       descBullets: [
         "Designed and implemented scalable Android features enhancing user experience",
@@ -213,7 +213,7 @@ const workExperiences = {
       role: "Software Engineer (Promoted to Senior Software Engineer in 2017)",
       company: "IPvision Canada Inc.",
       companylogo: require("./assets/images/ipvision.jpg"),
-      date: "2015 – 2023, Full-time, Onsite",
+      date: "2015 – 2023, Full-time (Onsite)",
       desc: "Contributed to large-scale Android app design and implementation, focusing on Material Design and performance for millions of users.",
 		descBullets: [
 		  "Developed clean, efficient code and integrated multiple 3rd party SDKs and APIs to extend app functionality",
@@ -229,7 +229,7 @@ const workExperiences = {
       role: "Android Developer",
       company: "Excel Company Ltd.",
       companylogo: require("./assets/images/atomix.jpg"), // add logo here
-      date: "2014 – 2015, Full-time, Onsite",
+      date: "2014 – 2015, Full-time (Onsite)",
       desc: "Delivered high-quality, client-specific Android applications with pixel-perfect UI and consistent UX",
 		 descBullets: [
 		  "Developed custom UI components and animations to meet client branding and usability requirements",
@@ -467,23 +467,29 @@ const blogSection = {
         "Passionate about creating cool tech and sharing what I’ve learned to inspire others.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
+     {
+      url: "https://www.linkedin.com/pulse/moving-from-xml-jetpack-compose-practical-guide-modern-munira-y6jsc/?trackingId=EWmNrS8xKIie6O2SrINtew%3D%3D",
+      title: "Moving from XML to Jetpack Compose: A Practical Guide for Modern Android Development",
+      description:
+        "By 2025, integrating Jetpack Compose is no longer optional. For any new app or feature, if you want your application to be high-performing, maintainable, testable, and lifecycle-aware, you should implement composable UIs from.. "
+    },
+	  {
+      url: "https://medium.com/@sumu0013/from-code-to-coordination-my-decade-long-journey-as-an-android-developer-ab5ffc5b4085",
+      title: "From Code to Coordination: My Decade-Long Journey as an Android Developer",
+      description:
+        "I still remember the electric thrill of writing my first line of production code — a feeling so powerful, it made everything else fade into the background. Since then, coding hasn’t just been my job — it’s been my calling."
+    },
     {
       url: "https://www.linkedin.com/pulse/power-bi-vs-python-data-analytics-when-choose-what-munira-xzqzc/?trackingId=%2BGeLF7iCRQSzRZNOqff%2F%2BQ%3D%3D",
       title: "Power BI vs Python for Data Analytics - When to Choose What?",
       description:
         "As data professionals, choosing the right tool for the job is crucial. Today, let’s dive into Power BI and Python, two of the most powerful tools in data analytics, and discuss when to use each and how they complement each other. "
     },
-    {
-      url: "https://medium.com/@sumu0013/from-code-to-coordination-my-decade-long-journey-as-an-android-developer-ab5ffc5b4085",
-      title: "From Code to Coordination: My Decade-Long Journey as an Android Developer",
-      description:
-        "I still remember the electric thrill of writing my first line of production code — a feeling so powerful, it made everything else fade into the background.."
-    },
 	 {
       url: "https://www.linkedin.com/pulse/unleashing-power-big-data-analytics-new-era-business-growth-munira-dp1ke",
       title: "Unleashing the Power of Big Data Analytics : A New Era of Business Intelligence and Growth",
       description:
-        "In today's digital world, Big-Data-Analytics is no longer a fancy tech term, rather it’s a transformative force!It can transform nearly every industry by.."
+        "In today's digital world, Big-Data-Analytics is no longer a fancy tech term, rather it’s a transformative force!It can transform nearly every industry by providing insights that were previously unimaginable."
     },
 	 {
       url: "https://www.linkedin.com/pulse/securing-digital-frontier-navigating-landscape-software-munira-vcmhc",
@@ -495,13 +501,14 @@ const blogSection = {
       url: "https://www.linkedin.com/pulse/role-data-science-artificial-intelligence-advancing-medicine-munira-chcec",
       title: "The Role of Data Science and Artificial Intelligence in Advancing Personalized Medicine",
       description:
-        "What if your doctor could offer you the perfect treatment based not just on your symptoms, but on your genetic code, lifestyle and environment? With personalized.."
-    },{
-      url: "https://www.linkedin.com/pulse/mastering-statistical-analysis-hypothesis-testing-key-munira-n8qrc",
-      title: "Mastering Statistical Analysis: Hypothesis Testing and Key Tests",
-      description:
-        "In data science and research, hypothesis testing is essential for evaluating whether data supports a certain claim. There are various types of statistical analysis.."
+        "What if your doctor could offer you the perfect treatment based not just on your symptoms, but on your genetic code, lifestyle and environment? With personalized medicine this is no longer a future possibility."
     }
+	//,{
+    //  url: "https://www.linkedin.com/pulse/mastering-statistical-analysis-hypothesis-testing-key-munira-n8qrc",
+    //  title: "Mastering Statistical Analysis: Hypothesis Testing and Key Tests",
+    //  description:
+    //    "In data science and research, hypothesis testing is essential for evaluating whether data supports a certain claim. There are various types of statistical analysis.."
+    //}
   ],
   display: true // Set false to hide this section, defaults to true
 };
